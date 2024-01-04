@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+</head>
+<style>
+    #title {
+        font-weight: bold;
+    }
+</style>
+<body>
+    <fieldset>
+        <legend>Contact Us!</legend>
+        <form>
+            <label id="title" for="subject">Subject: </label>
+            <select name="subject">
+                <option value="1">Support</option>
+                <option value="2">Suggestion</option>
+                <option value="3">Complaint</option>
+            </select><br><br>
+            <label id="title" for="name">Name: </label><br>
+            <input type="text" id="name" name="name" placeholder="Your name"><br><br>
+            <label id="title" for="email">E-mail: </label><br>
+            <input type="email" id="email" name="email" placeholder="Your E-mail"><br><br>
+            <label id="title" for="message">Message: </label><br>
+            <textarea rows="4" cols="40" id="message" name="message"></textarea><br><br>
+            <input type="checkbox" id="news" name="news">
+            <label for="news">I accept receiving news by e-mail!</label><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </fieldset>
+</body>
+</html>
